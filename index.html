@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/">
+  <base href="/portfolio_deploy/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -32,36 +32,6 @@
   <title>portifiolo</title>
   <link rel="manifest" href="manifest.json">
 </head>
-<body style="margin: 0; background-color: #121212; display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <div id="splash">
-    <div class="loader"></div>
-  </div>
-
-  <script src="main.dart.js" type="application/javascript"></script>
-  <script>
-    window.addEventListener('load', () => {
-      document.getElementById('splash').style.display = 'none';
-    });
-  </script>
-
-  <style>
-    /* Circle loading indicator */
-    .loader {
-      border: 6px solid #f3f3f3; /* Light gray background */
-      border-top: 6px solid #FF5722; /* Orange top */
-      border-radius: 50%;
-      width: 60px;
-      height: 60px;
-      animation: spin 1s linear infinite;
-    }
-
-    @keyframes spin {
-      0% { transform: rotate(0deg); }
-      100% { transform: rotate(360deg); }
-    }
-  </style>
-</body>
-
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>
