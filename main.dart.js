@@ -81329,7 +81329,7 @@ $S:0}
 A.ajl.prototype={
 $0(){var s=window
 s.toString
-B.hC.yt(s,"assets/Khaled_Alaya_CV.pdf","CV")},
+B.hC.yt(s,"assets/assets/Khaled_Alaya_CV.pdf","CV")},
 $S:0}
 A.ajq.prototype={
 $1(a){var s=this.a
