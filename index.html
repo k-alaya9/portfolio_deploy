@@ -18,7 +18,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="my portfolio">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -32,6 +32,38 @@
   <title>portifiolo</title>
   <link rel="manifest" href="manifest.json">
 </head>
+<body>
+  <!-- Loading indicator -->
+  <div id="loading" style="display:flex;justify-content:center;align-items:center;height:100vh;">
+    <div class="spinner"></div>
+  </div>
+
+  <script src="main.dart.js" type="application/javascript"></script>
+
+  <script>
+    window.addEventListener('load', () => {
+      // بعد ما يجهز كل شيء نخفي الـ loading
+      document.getElementById('loading').style.display = 'none';
+    });
+  </script>
+
+  <style>
+    .spinner {
+      border: 6px solid #f3f3f3; /* Light grey */
+      border-top: 6px solid #3498db; /* Blue */
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</body>
+هاي الطريقة:
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>
